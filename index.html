@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+
+</head>
+
+<body class="body__mobile">
+    <section class="head__logo centralizar__logo__mobile conteudo__normal">
+        <div class="centralizar__logo__mobile__interno conteudo__normal__interno">
+            <img src="logo.png">
+        </div>
+    </section>
+
+    <section>
+        <h1>
+            Uu Vamos jogar Pedra, Papel ou Tesoura (JokenPô🎯)
+        </h1>
+        <h3>Regras:</h3>
+        <p>
+            1 - Pedra ganha de Tesoura.
+        </p>
+        <p>
+            2 - Tesoura ganha de Papel.
+        </p>
+        <p>
+            3 - Papel ganha de Pedra.
+        </p>
+    </section>
+
+    <section class="conteudo__body">
+        <div class="conteudo__interno__body">
+            <h1 class="titulo__body">Usuario</h1>
+            <img class="user" src="user1.png">
+        </div>
+
+        <div class="conteudo__interno__body">
+            <h1 class="titulo__body">Vs</h1>
+            <img class="x" src="x.png">
+        </div>
+
+        <div class="conteudo__interno__body">
+            <h1 class="titulo__body">Maquina</h1>
+            <img class="robo" src="robo.png">
+        </div>
+    </section>
+    <section>
+        <div id="resultado">
+            <h3>Let's Start</h3>
+        </div>
+        <div class="conteudo__body">
+            <div class="conteudo__interno__body">
+                <h3>Placar:</h3>
+                <div class="placar">
+                    <div id="placarUser">0</div>
+                    <div id="placarRobo">0</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="conteudo__body">
+            <div class="conteudo__interno__body">
+                <h3>Você Escolheu x Maquina Escolheu</h3>
+                <div class="escolha__jogo">
+                    <div><img id="escolha__User" class="img__escolha" src="pedra__user.png"></div>
+                    <div><img id="escolha__Robo" class="img__escolha" src="pedra__robo.png"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="jogo.js"></script>
+    <section class="conteudo">
+        <div class="conteudo__interno">
+            <h1 class="titulo">Pedra</h1>
+            <button type="button" onclick="valor__1()">
+        <img class="img__icones" src="pedra.png">
+    </button>
+        </div>
+
+        <div class="conteudo__interno">
+            <h1 class="titulo">Papel</h1>
+            <button type="button" onclick="valor__2()">
+        <img class="img__icones" src="papel.png">
+    </button>
+        </div>
+
+        <div class="conteudo__interno">
+            <h1 class="titulo">Tesoura</h1>
+            <button type="button" onclick="valor__3()">
+        <img class="img__icones" src="tesoura.png">
+    </button>
+        </div>
+    </section>
+
+    <footer>
+        <section class="conteudo__normal">
+            <div class="conteudo__normal__interno">
+                <img class="logo_lauro" src="logo__Lauro__2.png">
+            </div>
+            <div class="conteudo__normal__interno">
+                <a href="https://www.facebook.com/lauroeleal/" target="_blank"> <img class="icones__sociais" src="facebook_logo_dark.png"></a>
+                <a href="https://www.instagram.com/lauroeleal/" target="_blank"> <img class="icones__sociais" src="instagram_logo-dark.png"></a>
+                <a href="https://twitter.com/lauroeleal" target="_blank"> <img class="icones__sociais" src="twitter_logo_dark.png"></a>
+                <a href="https://www.linkedin.com/in/lauroleal" target="_blank"> <img class="icones__sociais" src="linkedin_logo_dark.png"></a>
+                <a href="https://github.com/lauroleal" target="_blank"><img class="icones__sociais" src="github_logo_da.png"></a>
+                <a href="https://api.whatsapp.com/send?phone=5511963840978" target="_blank"><img class="icones__sociais" src="whatsapp_logo_dark.png"></a>
+            </div>
+            <div class="conteudo__normal__interno">
+                <p class="p__footer">© 2021. Alguns direitos reservados. Desenvolvido por Lauro Leal👻</p>
+            </div>
+            <section>
+            </section>
+
+
+
+        </section>
+    </footer>
+</body>
+
+</html>

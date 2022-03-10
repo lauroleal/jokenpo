@@ -1,0 +1,313 @@
+
+/* Fonte externa para os textos da pafina*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+/* resetando o comportamento padrão da pagina */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* 
+  media query
+
+@media screen and (max-width: 506px) {}
+@media screen and (max-device-width: 480px) {}
+@media screen and (max-width: 600px) {}
+@media  screen and (min-width: 768px) {}
+@media  screen and (min-width: 992px) {}
+@media  screen and (min-width: 1036px) {}
+  */
+
+/* CSS para dispositivos mobiles */
+@media only screen and (max-width: 620px) {
+  
+.body__mobile{
+  background-image: url("../img/back_390.png");
+  background-repeat: no-repeat;
+  background-size: auto; 
+  position: absolute;
+  overflow: auto;
+}
+.head__logo{
+  background-color: #F22558;
+  width:100%;
+  height: auto;
+}
+img{
+  width: 130px;
+  height: auto;
+}
+.centralizar__logo__mobile {
+  display: block;
+  justify-content: center;
+}
+.centralizar__logo__mobile__interno{
+  display: block;
+}
+
+footer{
+  background-color: #F22558;
+  width:100%;
+  height: auto; 
+}
+}
+
+/*
+############################
+CSS para demais dispositivos
+############################
+*/
+
+/*  estilo do background da pagina*/
+body{
+  background-image: url("../img/back.png");
+  background-repeat: no-repeat;
+  background-size: auto; 
+}
+
+footer{
+  background-color: #F22558;
+  width:100%;
+  height: auto; 
+}
+
+/* cabaçario normal */
+.conteudo__normal {
+  display: block;
+  justify-content: center; 
+}
+ 
+.conteudo__normal__interno {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.icones__sociais{
+  width: 40px;
+  height: auto;
+ margin: 5px 10px 20px 10px;
+ 
+}
+
+.logo_lauro{
+  width: 150px;
+  height:auto;
+  margin: 10px;
+}
+
+
+/* cabeçario da pagina */
+.head__logo{
+    background-color: #F22558;
+    width:100%;
+    height: auto;
+    
+}
+
+/* estilo imagem logo */
+img{
+    width: 160px;
+    height: auto;
+    margin-left: 50px;
+}
+
+/*estilo imagem user */
+.user{
+    width: 70px;
+    height: auto;
+}
+
+/* estilo imagem Robo*/
+.robo{
+    width: 90px;
+    height: auto;
+}
+
+/* estilo da imagem X */
+.x{
+    width: 40px;
+    height: auto;
+    
+}
+.conteudo__body {
+    display: flex;
+    justify-content: center;    
+  }
+  
+   /* conteudo externo */
+  .conteudo {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .conteudo__interno__body {
+    display: block;
+    margin: 8px;
+  }
+
+  .titulo__body {
+    position: relative;
+    color: #F22558;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 0px 0px 45px;
+  }
+  
+  /* conteudo interno */
+  .conteudo__interno {
+    display: block;
+    margin: 2px;
+    max-width: 200px;
+    max-height: 170px;
+  }
+  
+  /* estilo do texto das imagens pedra.. papel.. tesoura*/
+  .titulo {
+    position: relative;
+    max-width: 250px;
+    max-height: 50px;
+    color: #F22558;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: bold;
+    
+  }
+
+  /* estilo das imagens pedra.. papel.. tesoura*/
+  .img__icones{
+    width: 70px;
+    height: auto;
+    margin: 10px;
+    
+}
+
+/* estilo do texto que demostra o resultado do jogo ao clicar numa das opções*/
+  #resultado{
+    color: #F22558;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 4px;  }
+  
+  
+  /* resetando os atributos padroes da tag button*/
+  button {
+      border:none; /*remove as bordas*/
+      padding: 0; /*remove os espaços*/
+      margin: 0;
+      background-color: transparent; /*remove o fundo*/
+      /*remove a aparência customizada/nativa do navegador*/
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+              
+  }
+
+  /* comportamento botão / imagens pedra.. papel e tesoura ao passar o mause */
+  button:hover{
+      background-color: #F22558;
+      color: #fff;    
+  }
+
+  /* estilo do titulo principal*/
+  h1{
+    position: relative;
+    text-align: center;
+    color: #F22558;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  /* Estilo dos subtitulos */
+  h3{
+    position: relative;
+    text-align: center;
+    color: #F22558;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin:1px;
+  }
+
+  /* estilo do texto de regras */
+  p{
+    position: relative;
+    text-align: center;
+    color: #F22558;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 2px;
+  }
+
+  /* Estilo do fundo do placar User e Robo*/
+  .placar{
+    background-color: #F22558;
+    width: 220px;
+    height: 59px;
+    text-align: center;
+    display: flex;
+    margin: 0;
+    border-radius: 9px;
+    
+     
+  }
+
+  /* 
+  input{
+    margin-left: 100px;
+    width: 100px;
+    height:50px;
+    border: 2px solid #F22558;
+    border-radius: 9px;
+    padding: 0;
+  }
+
+  input:hover, input:active{
+    border: 2px solid #F22558;
+  }
+  input:focus{
+    outline: 0;
+  }
+  */
+
+  /*Estilo do resultado do placar User e Robo */
+  #placarRobo, #placarUser{
+   
+    color: #F22558;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+   background-color: #FFF;
+   border-radius: 9px;
+   margin: 10px 0px 10px 19px;
+   padding: 20px 35px 20px 35px;
+  }
+   /*Estilo do resultado do placar User e Robo */
+    .img__escolha{
+    width: 100px;
+    height: auto;
+  }
+
+    /* Estilo do fundo do placar User e Robo*/
+    .escolha__jogo{
+      background:transparent;
+      width: 450px;
+      height: 100px;
+      text-align: center;
+      display: flex;
+      margin-left: 100px;
+      margin-bottom: -54px;    
+    }
+
+    .p__footer {
+      color: #fff;
+      margin: 10px;
+      font-family:'Montserrat';
+      font-size: 15px;
+  }
